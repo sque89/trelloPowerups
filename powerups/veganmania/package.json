@@ -1,0 +1,22 @@
+{
+  "name": "Veganmania Trello Powerup",
+  "version": "0.0.1",
+  "description": "Trello Powerup to plan a Veganmania",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+  },
+  "engines": {
+    "node": "6.10.x"
+  },
+  "repository": {
+    "url": ""
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "express"
+  ]
+}

@@ -1,0 +1,3 @@
+RewriteEngine on
+
+Header add Access-Control-Allow-Origin "https://www.trello.com"
