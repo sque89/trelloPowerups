@@ -5,17 +5,16 @@
         <link rel="stylesheet" href="https://trello.com/power-ups/power-up.css" />
     </head>
     <body>
-        <div id="votingActive">
-        <button id="buttonVote" class="mod-primary">Abstimmen (noch <span class="favoriteVotesLeft"></span> übrig)</button>
-        <div id="voteCount"></div>
-        </div>
-        <div id="votingInactive">
-            Abstimmung aktuell nicht aktiv
-        </div>
+        <form>
+            <label for="selectInitialList">Für welche Liste sollen die Titel angezeigt werden?</label>
+            <select id="selectList"></select>
+            <button id="showList" class="mod-primary">Liste Anzeigen</button>
+        </form>
+
         <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
         <script src="../../node_modules/lodash/lodash.min.js"></script>
         <script src="https://api.trello.com/1/client.js?key=9cf88c998d7755a9cd1ca6259cf21e2d"></script>
         <script src="https://p.trellocdn.com/power-up.min.js"></script>
-        <script src="../js/voting.js"></script>
+        <script src="../js/titleList.js"></script>
     </body>
 </html>
