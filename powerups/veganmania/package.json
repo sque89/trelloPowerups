@@ -1,5 +1,5 @@
 {
-  "name": "Veganmania Trello Powerup",
+  "name": "Veganmania-Trello-Powerup",
   "version": "0.0.1",
   "description": "Trello Powerup to plan a Veganmania",
   "main": "server.js",
